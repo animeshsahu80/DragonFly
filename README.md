@@ -8,7 +8,7 @@ _**NOTE:** Please run this installation only on a fresh formatted system with Ub
 
 ```
 git clone https://github.com/harshitsankhla/DragonFly.git
-cd Dragonfly
+cd DragonFly
 sudo chmod +x drone.sh
 . drone.sh
 ```
