@@ -3,7 +3,7 @@ Software Setup for Outdoor UAV at RRC-IIIT Hyderabad
 
 ![Hardware Map](/extras/hardware.png)
 
-# Installation
+## Installation
 _**NOTE:** Please run this installation only on a fresh formatted system with Ubuntu 16/18_
 
 ```
