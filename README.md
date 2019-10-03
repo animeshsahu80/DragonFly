@@ -14,13 +14,13 @@ sudo chmod +x drone.sh
 ```
 
 ## Manual Changes
-_**1. Set your Monocular Camera Serial Number**
+_**1. Set your Monocular Camera Serial Number**_
 In file = ~/dragonfly_ws/src/bluefox2/launch/single_node.launch -> <arg name="device" default="**ENTER_SERIAL_HERE**"/> 
-_**2. Set your Image and IMU topic for VINS-Mono**(verify exact names by running - rostopic list)
+_**2. Set your Image and IMU topic for VINS-Mono**(verify exact names by running - rostopic list)_
 In file = ~/dragonfly_ws/src/VINS-Mono/config/bf_xsens/bf_xsens_config.yaml
 
 ## Tips and Tracks
-_**1. Command for Static Transform Publish between frames (will be used for attaching other sensor frames to odometry frame)**
+_**1. Command for Static Transform Publish between frames (will be used for attaching other sensor frames to odometry frame)**_
 ```
 rosrun tf static_transform_publisher x y z yaw pitch roll parent_frame child_frame period_in_ms
 ```
