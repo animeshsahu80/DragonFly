@@ -24,7 +24,7 @@ subl ~/dragonfly_ws/src/VINS-Mono/config/bf_xsens/bf_xsens_config.yaml
 ```
 
 ## Tips and Tricks
-- **Commands for Static Transform Publish between frames (will be used for attaching other sensor frames to odometry frame)**
+- **Commands for Static Transform Publish between frames (will be used for attaching other sensor frames to world frame)**
 ```
 rosrun tf static_transform_publisher x y z yaw pitch roll parent_frame child_frame period_in_ms
 rosrun tf static_transform_publisher x y z qx qy qz qw parent_frame child_frame period_in_ms
