@@ -15,6 +15,7 @@ sudo chmod +x drone.sh
 
 ## Manual Changes
 _**1. Set your Monocular Camera Serial Number**_
+
 In file = ~/dragonfly_ws/src/bluefox2/launch/single_node.launch -> <arg name="device" default="**ENTER_SERIAL_HERE**"/> 
 _**2. Set your Image and IMU topic for VINS-Mono**(verify exact names by running - rostopic list)_
 In file = ~/dragonfly_ws/src/VINS-Mono/config/bf_xsens/bf_xsens_config.yaml
