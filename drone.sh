@@ -58,7 +58,7 @@ sudo make install
 # Some ROS Packages
 sudo apt install ros-melodic-rgbd-launch -y
 sudo apt-get install ros-melodic-octomap -y
-sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras -y
 
 # Initialize ROS Workspace and add Packages
 cd $HOME
