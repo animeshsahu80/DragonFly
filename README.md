@@ -10,8 +10,15 @@ _**NOTE:** Please run this installation only on a fresh formatted system with Ub
 git clone https://github.com/harshitsankhla/DragonFly.git
 cd DragonFly
 sudo chmod +x drone.sh
-sudo ./drone.sh
+. drone.sh
 ```
+## Hardware Installed
+  * mvBlueFox monocular camera
+  * xsens IMU
+  * Intel Realsense
+  * Intel NUC Mini PC
+  * Pixhawk 4
+  * TF Mini LiDAR
 
 ## Manual Changes
 - **Set your Monocular Camera Serial Number**
