@@ -17,6 +17,7 @@ sudo chmod +x drone.sh
   * xsens IMU
   * Intel Realsense
   * Intel NUC Mini PC
+  * Here+ RTK GPS
   * Pixhawk 4
   * TF Mini LiDAR
 
