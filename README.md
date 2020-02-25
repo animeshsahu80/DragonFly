@@ -44,5 +44,3 @@ rosrun tf static_transform_publisher x y z qx qy qz qw parent_frame child_frame 
 ```
 sudo rosdep fix-permissions
 ```
-
-GDrive - https://drive.google.com/open?id=1M_KefI5scPEAR6IHr5KD8DPDBbuKsVKl
